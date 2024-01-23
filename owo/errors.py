@@ -1,3 +1,6 @@
+__all__ = ["ShortenUrlError", "UploadDataError"]
+
+
 class ShortenUrlError(Exception):
     pass
 
